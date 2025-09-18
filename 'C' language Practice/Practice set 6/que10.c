@@ -1,4 +1,13 @@
 #include<stdio.h>
+
+int square(int n){
+    return n*n;
+}
 int main(){
-    int arr[] = {5,2,8,7,4,6,9,3};`
+    int n;
+    printf("Enter n: ");
+    scanf("%d",&n);
+    printf("Square: %d\n",square(n));
+    return 0;
+    
 }

@@ -1,8 +1,8 @@
-#include<stdio.h>
+#include<stdio.h>                   // Fibonacci 
 
 int fibbo(int n);
 
-int fibbo(int n){
+int fibo(int n){
     if(n==0 || n==1){
         if(n==0){
           return 0;
@@ -11,17 +11,15 @@ int fibbo(int n){
             return 1;
         }
     }
-         int fibbo1 = fibbo(n-1);
-         int fibbo2 = fibbo(n-2);
-         int fibbo3 = fibbo1+fibbo2;
-         return fibbo3;
+         int fibo1 = fibo(n-1);
+         int fibo2 = fibo(n-2);
+         int fibo3 = fibo1+fibo2;
+         return fibo3;
 }
 
 
 
 int  main(){
-int n = 3;
-int s = fibbo(n);
-printf("Fibbonacci is: %d\n",s);
+    printf("%d\n",fibbo(3));
     return 0;
 }

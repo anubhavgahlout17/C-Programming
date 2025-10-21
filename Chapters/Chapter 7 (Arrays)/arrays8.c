@@ -3,9 +3,9 @@
 int main(){
 int arr[3][2];                      // 3 collumn 2 rows
 
-for(int i = 0; i < 3; i++){     // for 3 rows take input from the user loop
+for(int i = 0; i < 3; i++){     // loop for 3 rows take input from the user 
 
-    for(int j = 0; j < 2; j++){   // for 2 Collumn take input from the user loop
+    for(int j = 0; j < 2; j++){   // loop for 2 Column take input from the user 
      
         printf("Enter the value of arr[%d][%d]",i,j);
         scanf("%d", &arr[i][j]);

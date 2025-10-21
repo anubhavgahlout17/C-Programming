@@ -1,4 +1,4 @@
-#include<stdio.h>            // arrays as functionxv
+#include<stdio.h>            // arrays as function
 
 void PrintNumber(int arr[],int n);
 void printNumber(int arr[],int n){

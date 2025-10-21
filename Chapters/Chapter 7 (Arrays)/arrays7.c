@@ -12,13 +12,5 @@ int main(){
         printf("The marks at index %d is %d\n", i, *ptr);   
         ptr++;  // with using pointer
      }
-
-
-  
-
-
-
-
-
     return 0;
 }

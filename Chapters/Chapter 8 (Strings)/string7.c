@@ -1,13 +1,5 @@
-#include<stdio.h>
-
-void name(char arr[]);
-
-void name(char arr[]){
-    for(int i = 0; arr[i] != '\0'; i++ ){
-        printf("%c", arr[i]);
-        printf("\n");
-    }
-}
+#include<stdio.h>                  //String using pointer
+                            
 
 int main(){
     char *name = "Anubhav";

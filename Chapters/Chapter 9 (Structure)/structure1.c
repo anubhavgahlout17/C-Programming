@@ -12,7 +12,7 @@ int main(){
 struct student s1;
 s1.RollNo = 456;
 s1.cgpa = 5.2;
-strcpy(s1.name, "ANubhav");
+strcpy(s1.name, "Anubhav");
 
 printf("Student name: %s\n", s1.name );
 printf("Student name: %d\n", s1.RollNo );

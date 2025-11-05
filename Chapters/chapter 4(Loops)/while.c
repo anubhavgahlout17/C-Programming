@@ -1,17 +1,12 @@
 #include<stdio.h>
-
+                                    // While Loop
 int main(){
     int n;
     printf("Enter nubmer : ");
     scanf("%d", &n);
 
-    int i = n;
-    do{
-        printf("%d\n", &i);
-        i++;
-    }
-
-    while(i=){
+    int i = 0;
+    while(i<=n){
         printf("%d\n" ,i);
         i++;
     }

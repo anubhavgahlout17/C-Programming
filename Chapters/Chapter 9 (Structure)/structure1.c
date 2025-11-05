@@ -20,6 +20,4 @@ printf("Student name: %f\n", s1.cgpa);
 return 0;
 
 
-
-
 }

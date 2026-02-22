@@ -13,7 +13,7 @@ void printinfo(struct student s1){
 
 
 int main(){
-struct student s1 = {4569,"Bishu"};
+struct student s1 = {4569,"Anshu"};
 printinfo(s1);
 return 0;
 }

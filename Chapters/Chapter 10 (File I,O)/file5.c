@@ -1,4 +1,4 @@
-#include<stdio.h>           // Use of fgetc like (fprintf)  for reding file "r" 
+#include<stdio.h>           // Use of fgetc for reding file "r" 
                              
 int main(){
 

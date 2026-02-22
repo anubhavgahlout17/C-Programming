@@ -1,4 +1,4 @@
-#include<stdio.h>           // Use of fputc like (fscanf)  for write in  file "w"(overwrite)
+#include<stdio.h>           // Use of fputc for write in  file "w"(overwrite)
                              
 int main(){
 

@@ -3,7 +3,7 @@
 void print_string(char arr[]);
 void print_string(char arr[])
 {
-    printf("%s\n", arr);
+    printf("%s", arr);
 }
 int main()
 {
